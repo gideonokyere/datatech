@@ -1,0 +1,111 @@
+.navBar{
+  display: flex;
+}
+
+.logo{
+  flex:1;
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 0.12em;
+  color: #282051;
+}
+
+.login-intro{
+  font-size: 1.12em;
+  font-weight: 400;
+  text-align: left;
+}
+
+.login-sub-intro{
+  margin-top: 1em;
+  font-weight:regular;
+  font-size: 1em;
+  color:#333333;
+  margin-bottom: 1em;
+}
+
+.form-style{
+  margin-top: 1em;
+}
+
+.social-intro{
+  text-align: center;
+  color: #828282;
+  font-size:0.87em;
+}
+
+.icon-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.icon-circle{
+  height: 2.62em;
+  width: 2.62em;
+  border: 0.06em solid #828282;
+  border-radius: 3em;
+  margin-left: 0.93em;
+}
+
+.icon-position{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.linked-page{
+  text-align: center;
+  color: #828282;
+  font-size:0.87em;
+  margin-top: 1em;
+}
+
+.login-page-intro{
+  font-size: 1.12em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.profile-intro{
+  font-size: 2.25em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.profile-data{
+  padding: 2px;
+}
+
+.profile-title{
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #000000;
+}
+
+.profile-sub-title{
+  font-size: 0.81em;
+  font-weight: 500;
+  color: #000000;
+}
+
+.dropdown-box{
+  border: 1px solid #82828224;
+  border-radius: 0.62em;
+
+}
+
+ .dropdown-menu{
+  list-style-type: none;
+  padding-left: 0.62em;
+  line-height: 3;
+}
+
+.dropdown-menu li:hover{
+  background-color:#F2F2F2;
+  padding-left: 0;
+}
+
+.line{
+  border: 1px solid #82828224;
+}
